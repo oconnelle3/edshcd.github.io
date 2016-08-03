@@ -1,20 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 * {
   background-color: #6391FF;
   color: #D7FFBC;
   text-align: center;
 }
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+}
+}
+nav {
+  font-family: sans-serif;
+  height: 75px;
+  display: block;
+}
+nav.tabs {
+  padding: 1.25rem 1.375rem 1.125rem 1.125rem;
+  float: right;
+}
+ul {
+    list-style: none;
+}
 h1 {
   color: white;
   font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
 }
 img {
   opacity: .75;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
 img:hover {
   opacity: 1;
-  width: 250px;
-  height: 250px;
+  max-width: 17rem;
+  width: 150%;
+  height: 150%;
 }
-li {
+.bio-pic {
+  width: 100%;
+  max-width: 15rem;
+  border-radius: 50%;
+  margin-bottom: .375rem;
+}
+.links li {
+  line-height: 3;
   list-style-type: none;
+  text-align: right;
+    display: inline-block;
+    float: right;
+}
+nav li:hover {
+  color: black;
+}
 }
